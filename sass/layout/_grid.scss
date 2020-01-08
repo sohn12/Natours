@@ -17,6 +17,14 @@
   }
 }
 
+.col-1-of-3 {
+  flex: 1 1 0;
+  min-width: 100px;
+  &:not(:last-child) {
+    margin-right: $gutter-horizontal;
+  }
+}
+
 .col-1-of-4 {
   flex: 1 1 0;
   min-width: 75px;
